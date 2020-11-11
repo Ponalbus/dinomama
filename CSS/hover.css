@@ -34,19 +34,23 @@ button.size_Choose:hover {
   cursor: pointer;
 }
 .card:hover {
+  transition-duration: 0.3s;
   cursor: pointer;
   box-shadow: 0px 8px 30px rgba(8, 41, 63, 0.26);
 }
 .card_type2:hover {
+  transition-duration: 0.3s;
   cursor: pointer;
   box-shadow: 0px 8px 30px rgba(8, 41, 63, 0.26);
 }
 .category_Box:hover {
+   transition-duration: 0.3s;
   cursor: pointer;
   box-shadow: 0px 8px 30px rgba(8, 41, 63, 0.26);
 }
 
 .interest-Box:hover {
+   transition-duration: 0.3s;
   cursor: pointer;
   box-shadow: 0px 8px 30px rgba(8, 41, 63, 0.26);
 }
