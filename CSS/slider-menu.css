@@ -3,7 +3,12 @@
   display: inline-block;
   position: relative;
 }
+.top_menu {
+    background: #0AA245;
+    width: 100%;
+    margin: auto;
 
+}
 .submenu_boy {
   margin-top: 28px;
   width: 1280px;
@@ -140,14 +145,16 @@
 }
 
 .topmenu {
+    width: 1156px;
+    margin: auto;
      margin-bottom: 40px;
     list-style: none;
     height: 48px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-left: 0;
-    background: #0AA245;
+   
 }
 }
 .menu {
