@@ -5,18 +5,20 @@
     display: flex;
     justify-content: space-between;
 }
-
-
+.card-Product-Slider {
+    width: 1119px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    height: 513px !important;
+    margin-right: 20px !important;
+}
 .card_Product2 {
-  display: flex;
-  flex-wrap: wrap;
-  width: 1120px;
-  margin: auto;
-  justify-content: space-between;
+  margin: auto !important;
+
 }
 
 .card_type2{
-  margin-bottom: 20px;
   display: flex;
   border: 1px solid rgba(221, 225, 230, 1);
   width: 548px;
@@ -90,7 +92,7 @@
   height: 224px;
   left: calc(50% - 224px/2);
   top: calc(50% - 224px/2);
-  background: url("../image 24.svg") no-repeat;
+  background: url("../image/image 24.svg") no-repeat;
   background-size: 226px 180px;
 }
 
@@ -117,24 +119,23 @@
 }
 
 .card-text1 {
- font-family: Raleway;
+  font-family: Proxima Nova;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  /* or 137% */
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
   font-feature-settings: 'pnum' on, 'lnum' on;
-
   /* #202329 */
   color: #202329;
 }
 .card-text2_type2 {
- font-family: Raleway;
+  font-family: Proxima Nova;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  /* or 137% */
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
   font-feature-settings: 'pnum' on, 'lnum' on;
 
   /* #202329 */
@@ -142,17 +143,16 @@
   margin-bottom: 38px;
 }
 .card-text4{
- font-family: Raleway;
+  font-family: Proxima Nova;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  /* or 137% */
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
   font-feature-settings: 'pnum' on, 'lnum' on;
-
   /* #202329 */
   color: #202329;
-  margin-bottom: 18px;
+  margin-bottom: 34px;
 }
 .price {
    display: flex;
@@ -298,18 +298,11 @@
   width: 32px;
   border-radius: 10px;
   border: none;
-
 }
-.love_Product :hover {
+.love_Product:hover {
   cursor: pointer;
 }
-.whithLove {
-  display: none
-}
 
-.love_Product :hover > .whithLove{
-  display: block;
-}
 
 .carusel {
   margin-bottom: 20px;
@@ -372,4 +365,5 @@
   width: 24px;
   height: 24px;
  color: rgba(0, 111, 229, 1);
+ margin-left: 15px;
 }

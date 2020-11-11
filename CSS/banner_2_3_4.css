@@ -10,7 +10,8 @@
   height: 270px;
   width: 357px;
   border-radius: 10px;
-  background: #006FE6;
+  background: url("../image/banner 2.2.svg") #006FE6 no-repeat;
+  background-position: bottom;
 }
 
 .text-Box_banner2 {
@@ -126,6 +127,7 @@
 }
 
 .messageImg {
+  position: fixed;
   margin-top: 182px;
 }
 

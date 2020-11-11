@@ -2,17 +2,16 @@ body {
   margin: 0;
   padding: 0;
 }
-a {
-  text-decoration: none;
-}
 
 .container {
-  width: 1280px;
+  width: 100%;
+  position: fixed;
   margin: auto; 
 }
 
 .h_banner {
-  width: 1280px;
+  width: 100%;
+  margin: auto;
   height: 48px; 
   top: 0px;
   background: url("../image/Grouprains3.svg") #0013f7fc repeat;
@@ -33,7 +32,7 @@ a {
 }
 
 .box_banner {
-  width: 1192px;
+  width: 1191px;
 }
 
 
@@ -99,14 +98,15 @@ a {
      
 
 .desktop {
+  padding-top: 48px;
   margin: auto;
   width: 1120px;
   height: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo-desktop {
-  margin-top: 20px;
 }
 .subtract_telefon {
     display: flex;

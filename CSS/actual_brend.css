@@ -1,3 +1,9 @@
+.carusel-Brend {
+  width: 100% !important;
+  margin: auto !important;
+  background: #F4F6F8;
+  padding-top: 23px;
+}
 .actual_Brend {
   margin: auto;
   width: 1280px;
@@ -5,8 +11,36 @@
   background: #F4F6F8;
   margin-bottom: 60px;
 }
+.carusel-Boxs2 {
+   width: 100% !important;
+   margin: auto !important; 
+}
+.logo-boxs {
+  height: 284px !important;
+  margin: auto !important;
+  background: rgba(244, 246, 248, 1);
+
+
+}
+
+.line-logo1 {
+  padding-top: 55px;
+  margin-bottom: 26px;
+  display: flex !important;
+  justify-content: space-between; !important;
+  align-items: center !important;
+  width: 1118px !important;
+  
+}
+
+.line-logo2 {
+  width: 1118px !important;
+  display: flex !important;
+  justify-content: space-between; !important;
+  align-items: center !important;
+}
 .logotype {
-  width: 205px;
+
 }
 .brend_Heading {
   margin-top: 35px;
@@ -23,9 +57,7 @@
   color: #202329;
  }
  
-  .brend_Box {   
-   margin-top: 45px;
- }
+  
 
  
 .more_Product_Brend {
@@ -34,29 +66,34 @@
     /* padding-left: 43px; */
   align-items: center;
   display: flex;
-  width: 1120px;
+  width: 100%;
   margin: auto;
 }
 
-.box_1_Brends {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 .text_more_productBrend {
-    margin-right: 16px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
+     width: 1094px;
+    margin: auto;
     display: flex;
-    align-items: center;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #006FE6;
-    margin-left: 76px;
+
 }
 
+
+
+.text_more_productBrend a {
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* #0071BC */
+color: #006FE6;
+
+}
 
 
 

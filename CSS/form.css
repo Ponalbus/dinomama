@@ -1,11 +1,9 @@
 .form {
-   height: 232px;
-   width: 1280px;
+  height: 232px;
+   width: 100%px;
   margin: auto;
-  background: url("../image/image/Group 63.svg") rgba(0, 111, 229, 1) repeat;
-  background-size: 158px 75px;
-  background-blend-mode: soft-light;
-  background-position: top;
+  background: url("../image/Group 64.svg") rgba(0, 111, 229, 1) repeat;
+  background-size: cover;
 }
 .keep_Abrest {
   padding-top: 30px;
@@ -71,6 +69,11 @@
  }
 
  .submit {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
   cursor: pointer;
   height: 48px;
   width: 256px;

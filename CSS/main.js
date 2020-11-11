@@ -1,5 +1,29 @@
+$('.carusel-Box-common').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+      
+$('.carusel-Boxs2').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+            
+$('.card_Product2').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+        
 
-   			document.getElementById('mask').onclick = function() {
+            document.getElementById('mask').onclick = function() {
       		document.getElementById('banner_rain').style.display = 'none';
    			 }
 

@@ -29,7 +29,6 @@ color: #FFFFFF;
   border: 1px solid #DDE1E6;
   box-sizing: border-box;
   border-radius: 10px;
-    margin-left: 30px;
 
 }
 .interest-Boxs {
@@ -37,7 +36,6 @@ color: #FFFFFF;
     margin-right: 66px;
     justify-content: space-around; 
     display: flex;
-    margin-left: 30px;
   }
 .interest-Image_Box {
   text-align: center;
@@ -72,7 +70,7 @@ color: #FFFFFF;
   /* #202329 */
   color: #202329;
 }
-.read_more{
+.read_more {
   margin-left: 30px;
   font-family: Raleway;
   font-style: normal;
@@ -86,18 +84,18 @@ color: #FFFFFF;
   font-feature-settings: 'pnum' on, 'lnum' on;
 
   /* #0071BC */
-  color: #006FE
+  color:  #006FE6;
 }
 
 .go_Blog {
      display: flex;
-    width: 1158px;
+    width: 1120px;
     margin: auto;
     margin-top: 30px;
+    align-items: end;
 }
 
-.text_go_Blog{ 
-  margin-right: 14px;
+.text_go_Blog a{ 
    font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -112,7 +110,7 @@ color: #FFFFFF;
   color: #FFFFFF;
  }
  .mask_Right_go_Blog {
- width: 24px;
+  width: 24px;
   height: 24px;
- color: #FFFFFF;
+ 
  }

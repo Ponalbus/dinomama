@@ -4,6 +4,22 @@
     display: flex;
     justify-content: space-between;
 }
+.headingCard {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.carusel-Box1 {
+
+    width: 1120px !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    justify-content: space-between !important;
+  }
 
 
 .card_Product {
@@ -14,15 +30,10 @@
   justify-content: space-between;
 }
 
+
+
 .card_Product1 {
   padding-bottom: 20px;
-  display: flex;
-  width: 1120px;
-  margin: auto;
-  justify-content: space-between;
-}
-.card_Product2 {
-  padding-bottom: 40px;
   display: flex;
   width: 1120px;
   margin: auto;
@@ -31,8 +42,8 @@
 
 .card{ 
   border: 1px solid rgba(221, 225, 230, 1);
-  width: 262px; 
-  height: 522px;
+  width: 262px !important; 
+  height: 522px !important;
   box-sizing: border-box;
   border-radius: 10px;
 }
@@ -174,7 +185,7 @@
 }
 
 .card-text1 {
- font-family: Raleway;
+  font-family: Proxima Nova;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -184,9 +195,10 @@
 
   /* #202329 */
   color: #202329;
+  margin-bottom: 18px;
 }
 .card-text2 {
- font-family: Raleway;
+  font-family: Proxima Nova;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -196,9 +208,10 @@
 
   /* #202329 */
   color: #202329;
-  margin-bottom: 62px;
+  margin-bottom: 51px;
 }
 .card-text4{
+  font-family: Proxima Nova;
  font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -221,13 +234,11 @@
 .new_Price {
   height: 20px;
   width: 59px;
-  font-family: Raleway;
+  font-family: Proxima Nova;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 20px;
-  /* identical to box height, or 125% */
-  font-feature-settings: 'pnum' on, 'lnum' on;
+  line-height: 24px;
 
   /* #0AA245 */
   color: #0AA245;
@@ -237,11 +248,11 @@
   height: 11px;
   width: 51px;
   left: 86px;
-  font-family: Raleway;
+  font-family: Proxima Nova;
   font-style: normal;
-  font-weight: 500;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 15px;
+  line-height: 20px;
   /* identical to box height, or 107% */
   font-feature-settings: 'pnum' on, 'lnum' on;
 
@@ -268,12 +279,21 @@
   width: 35px; 
   margin-right: 3px;
   margin-bottom: 4px;
-  height: 20px
+  height: 20px;
   background: #F4F7FB;
 /* #DDE1E6 */
   border: 1px solid #DDE1E6;
   box-sizing: border-box;
   border-radius: 4px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  /* identical to box height, or 127% */
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #969BA8;
  }
 
 .product_Code{
@@ -348,10 +368,14 @@
 }
 
 .love_Product {
+  background: #F4F7FB;
   height: 32px;
   width: 32px;
   border-radius: 10px;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .love_Product :hover {
